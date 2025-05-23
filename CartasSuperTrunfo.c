@@ -15,29 +15,28 @@ int main() {
    float pib, area;
     
    //Solicitando a Entrada e definindo valores para os dados.
-    printf("Primeiro começe digitando os dados da 1° carta");
+    printf("Primeiro começe digitando os dados da 1° carta\n");
 
-    printf("\nDigite o Estado da sua cidade:\n");
+    printf("Digite o Estado da sua cidade:\n");
     fgets(estado,20,stdin);
-
-    printf("Digite o nome da sua cidade:\n");
-    fgets(nomeCidade,40,stdin);
 
     printf("Digite o código da sua carta:\n");
     scanf("%d",&cCarta);
 
+    printf("Digite o nome da sua cidade:\n");
+    fgets(nomeCidade,40,stdin);
+
     printf("Digite a população da sua cidade:\n");
     scanf("%d",&populacao);
-
-    printf("Digite o número de pontos turísticos da sua cidade:\n");
-    scanf("%d",&npt);
-
-    printf("Digite o PIB de sua cidade:\n");
-    scanf("%f",&pib);
 
     printf("Digite a área de sua cidade:\n");
     scanf("%f",&area);
 
+    printf("Digite o PIB de sua cidade:\n");
+    scanf("%f",&pib);
+
+    printf("Digite o número de pontos turísticos da sua cidade:\n");
+    scanf("%d",&npt);
 
 
     // Sugestão: Defina variáveis separadas para cada atributo da cidade.
