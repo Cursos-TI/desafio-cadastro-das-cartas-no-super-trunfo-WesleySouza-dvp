@@ -7,6 +7,39 @@
 //Teste larissa
 
 int main() {
+    //declarando váriaveis do tipo CHAR dos dados: estado e nome da cidade.
+   char  estado[20],nomeCidade[40];
+   //declarando váriaveis do tipo INT dos dados: código da carta, população da cidade e número de pontos turísticos.
+   int  cCarta, populacao, npt;
+   //declarando váriaveis do tipo Float dos dados: PIB, e Área.
+   float pib, area;
+    
+   //Solicitando a Entrada e definindo valores para os dados.
+    printf("Primeiro começe digitando os dados da 1° carta");
+
+    printf("\nDigite o Estado da sua cidade:\n");
+    fgets(estado,20,stdin);
+
+    printf("Digite o nome da sua cidade:\n");
+    fgets(nomeCidade,40,stdin);
+
+    printf("Digite o código da sua carta:\n");
+    scanf("%d",&cCarta);
+
+    printf("Digite a população da sua cidade:\n");
+    scanf("%d",&populacao);
+
+    printf("Digite o número de pontos turísticos da sua cidade:\n");
+    scanf("%d",&npt);
+
+    printf("Digite o PIB de sua cidade:\n");
+    scanf("%f",&pib);
+
+    printf("Digite a área de sua cidade:\n");
+    scanf("%f",&area);
+
+
+
     // Sugestão: Defina variáveis separadas para cada atributo da cidade.
     // Exemplos de atributos: código da cidade, nome, população, área, PIB, número de pontos turísticos.
     
